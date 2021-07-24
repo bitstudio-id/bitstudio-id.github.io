@@ -1,0 +1,36 @@
+{
+  "index.html": {
+    "file": "assets/index.62ca9cc4.js",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor.13b616ec.js"
+    ],
+    "dynamicImports": [
+      "src/modules/home/views/home.vue",
+      "src/modules/login/views/login.vue"
+    ],
+    "css": [
+      "assets/index.80422b83.css"
+    ]
+  },
+  "_vendor.13b616ec.js": {
+    "file": "assets/vendor.13b616ec.js"
+  },
+  "src/modules/home/views/home.vue": {
+    "file": "assets/home.ee357997.js",
+    "src": "src/modules/home/views/home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.13b616ec.js"
+    ]
+  },
+  "src/modules/login/views/login.vue": {
+    "file": "assets/login.0646d356.js",
+    "src": "src/modules/login/views/login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.13b616ec.js"
+    ]
+  }
+}
