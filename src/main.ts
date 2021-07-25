@@ -23,7 +23,8 @@ const emitter = mitt()
 
 app.config.globalProperties.emitter = emitter
 
-// antd component register
+// begin antd component register
+
 // app.use(Breadcrumb)
 // app.use(BreadcrumbItem)
 // app.use(Layout)
@@ -34,6 +35,8 @@ app.config.globalProperties.emitter = emitter
 // app.use(MenuItem)
 // app.use(Row)
 // app.use(SubMenu)
+
+// end antd component register
 
 app.use(router)
 app.mount('#app')
