@@ -1,6 +1,6 @@
 <template>
   <h3>Lorem ipsum dolor sit home</h3>
-  <div>Home.vue</div>
+  <div>Home.vue updated</div>
   <p>Text {{ sample }}</p>
   <button @click="increment">Inc</button>
   <button @click="decrement">Dec</button>

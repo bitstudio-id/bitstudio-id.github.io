@@ -1,5 +1,5 @@
 <template>
-  <div>Login.vue</div>
+  <div>Login.vue @types/vue</div>
   <p>Click to login</p>
   <button @click="login">Login</button>
 </template>
