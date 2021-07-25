@@ -1,21 +1,23 @@
-import { defineAsyncComponent } from 'vue'
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'home',
-    component: defineAsyncComponent(() => import('@/modules/home/views/home.vue'))
+    component: () => import('@/modules/home/views/Home.vue')
   },
   {
     path: '/login',
     name: 'login',
-    component: defineAsyncComponent(() => import('@/modules/login/views/login.vue'))
+    component: () => import('@/modules/login/views/Login.vue'),
+    meta: {
+      layout: 'default-app'
+    }
   },
   {
     path: '/blank',
     name: 'blank',
-    component: defineAsyncComponent(() => import('@/modules/blank/views/blank.vue'))
+    component: () => import('@/components/views/Blank.vue')
   }
 ]
 const router = createRouter({

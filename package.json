@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
+    "prod": "npm run build",
     "serve": "vite preview",
     "prepare": "husky install",
     "test": "jest"
@@ -12,9 +13,12 @@
     "*.{vue,js,ts}": "eslint --fix"
   },
   "dependencies": {
+    "@ant-design/icons-vue": "^2.0.0",
     "@vitejs/plugin-vue": "^1.2.5",
-    "ant-design-vue": "^1.7.6",
+    "ant-design-vue": "^2.2.2",
     "axios": "^0.21.1",
+    "mitt": "^3.0.0",
+    "qs": "^6.10.1",
     "vite": "^2.4.3",
     "vite-plugin-components": "^0.13.2",
     "vue": "^3.0.5",
