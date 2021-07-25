@@ -1,5 +1,5 @@
 <template>
-  <h3>Lorem ipsum dolor sit amet</h3>
+  <h3>Lorem ipsum dolor sit home</h3>
   <div>Home.vue</div>
   <p>Text {{ sample }}</p>
   <button @click="increment">Inc</button>
